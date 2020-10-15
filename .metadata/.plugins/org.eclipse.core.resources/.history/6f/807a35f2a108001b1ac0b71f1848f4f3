@@ -1,0 +1,14 @@
+package version5;
+
+public class InstrumentSpec {
+
+	public static final int NO_PREF_NUM_STRINGS = -1;
+	
+	private Builder builder;
+	private String model;
+	private Type type;
+	private int numStrings;
+	private Wood backWood;
+	private Wood topWood;
+	
+}

@@ -1,0 +1,44 @@
+package version5;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Inventory {
+
+	private List<Instrument> intruments;
+
+	public Inventory() {
+		intruments = new LinkedList<>();
+	}
+
+	public void addInstrument(String serialNumber, double price, InstrumentSpec spec) {
+		guitars.add(new Instrument(serialNumber, price, spec));
+	}
+
+	public Guitar getGuitar(String serialNumber) {
+		for (Iterator<Guitar> i = guitars.iterator(); i.hasNext();) {
+			Guitar guitar = i.next();
+			if (guitar.getSerialNumber().equals(serialNumber)) {
+				return guitar;
+			}
+		}
+		return null;
+	}
+
+	public List<Guitar> search(GuitarSpec searchGuitar) {		
+
+		List<Guitar> listGuitar = new ArrayList<>();
+
+		for (Iterator<Guitar> i = guitars.iterator(); i.hasNext();) {
+			Guitar guitar = i.next();
+
+			if (guitar.getSpec().matches(searchGuitar)) {
+				listGuitar.add(guitar);
+			}			
+		}
+		return listGuitar;
+	}
+
+}

@@ -1,0 +1,40 @@
+package version5;
+
+public class MandolineSpec extends InstrumentSpec {
+
+	private Style style;
+	
+	public MandolineSpec(Builder builder, String model, Style style, Type type, Wood backWood, Wood topWood) {
+		super(builder, model, type, backWood, topWood);
+		this.style = style;
+	}
+	
+	@Override
+	public boolean matches(InstrumentSpec searchMandoline) {
+		if (searchGuitar instanceof GuitarSpec) {
+			GuitarSpec guitar = (GuitarSpec) searchGuitar;
+			int numStrings = guitar.getNumStrings();
+			if ((numStrings != NO_PREF_NUM_STRINGS) && (numStrings != getNumStrings())){
+				return false;
+			}
+		} 
+		return super.matches(searchMandoline);
+			if (searchMandoline instanceof MandolineSpec) {
+				MandolineSpec mandoline = (MandolineSpec) searchMandoline;
+				if (super.matches(mandoline)) {
+					Style style = mandoline.getStyle();
+					if ((style != null) && (!style.equals(getStyle()))) {
+						return false;
+					}
+				}		
+			} else {
+				return false;
+			}	
+		return true;
+	}
+	
+	public Style getStyle() {
+		return style;
+	}
+
+}

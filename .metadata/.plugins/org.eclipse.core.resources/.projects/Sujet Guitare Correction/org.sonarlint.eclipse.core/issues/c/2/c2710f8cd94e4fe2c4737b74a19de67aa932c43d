@@ -1,0 +1,24 @@
+
+r
+java:S11177":Rename "builder" which hides the field declared at line 7.(Ü»·žÿÿÿÿÿ8ü‹Õ˜Ð.HÄRMAJORZ
+CODE_SMELL
+y
+java:S1126V"AReplace this if-then-else statement by a single return statement.(»õÐªøÿÿÿÿ8ÈÒ÷˜Ð.HêRMINORZ
+CODE_SMELL
+t
+java:S1117I"<Rename "backWood" which hides the field declared at line 11.(¹È¦Ûüÿÿÿÿ8ü‹Õ˜Ð.HÇRMAJORZ
+CODE_SMELL
+q
+java:S1117U">Rename "numStrings" which hides the field declared at line 10.(¿ß¥•8òÚö˜Ð.HèRMAJORZ
+CODE_SMELL
+j
+java:S1117="7Rename "type" which hides the field declared at line 9.(Š¹´÷8ü‹Õ˜Ð.HÅRMAJORZ
+CODE_SMELL
+n
+java:S1117C";Rename "topWood" which hides the field declared at line 12.(É×ÓŒ8ü‹Õ˜Ð.HÆRMAJORZ
+CODE_SMELL
+k
+java:S1117O"8Rename "model" which hides the field declared at line 8.(øÑÐØ8ü‹Õ˜Ð.HÈRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï¸ýíýÿÿÿÿHàRMINORZ
+CODE_SMELL

@@ -1,0 +1,33 @@
+package version5;
+
+public class GuitarSpec extends InstrumentSpec {
+
+	private int numStrings;
+	
+	public GuitarSpec(Builder builder, String model, int numStrings, Type type, Wood backWood, Wood topWood) {
+		super(builder, model, type, backWood, topWood);
+		this.numStrings = numStrings;
+	}
+
+	@Override
+	public boolean matches(InstrumentSpec searchGuitar) {
+		super.matches(searchGuitar);
+		if (searchGuitar instanceof GuitarSpec) {
+			GuitarSpec guitar = (GuitarSpec) searchGuitar;
+			int numStrings = guitar.getNumStrings();
+			if ((numStrings != NO_PREF_NUM_STRINGS) && (numStrings != getNumStrings())){
+				return false;
+			}
+			return true;
+		} else {
+			return false;
+		}
+					
+		return true;
+	}
+	
+	public int getNumStrings() {
+		return numStrings;
+	}
+	
+}

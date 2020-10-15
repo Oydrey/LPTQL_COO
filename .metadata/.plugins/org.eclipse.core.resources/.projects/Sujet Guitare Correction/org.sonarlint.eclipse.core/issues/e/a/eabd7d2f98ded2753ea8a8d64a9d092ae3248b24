@@ -1,0 +1,9 @@
+
+œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(æ€–úHÒRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–¶‘¢ùÿÿÿÿHÔRMINORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(æ€–úHÕRCRITICALZ
+CODE_SMELL

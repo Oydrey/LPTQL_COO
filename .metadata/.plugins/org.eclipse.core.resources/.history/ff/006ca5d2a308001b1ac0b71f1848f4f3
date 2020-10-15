@@ -1,0 +1,12 @@
+package version5;
+
+public class MandolineSpec extends InstrumentSpec {
+
+	private Style style;
+	
+	public MandolineSpec(Builder builder, String model, Type type, Wood backWood, Wood topWood) {
+		super(builder, model, type, backWood, topWood);
+		this.style = style;
+	}
+
+}

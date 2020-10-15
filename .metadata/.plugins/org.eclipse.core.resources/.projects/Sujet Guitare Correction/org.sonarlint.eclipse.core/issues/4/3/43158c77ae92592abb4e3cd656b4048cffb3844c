@@ -1,0 +1,9 @@
+
+‚
+java:S1192"MDefine a constant instead of duplicating this literal "Stratocastor" 3 times.(ƒýè68¬ª¾—Ð.HóRCRITICALZ
+CODE_SMELL
+\
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿH¡RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–¶‘¢ùÿÿÿÿH RMINORZ
+CODE_SMELL

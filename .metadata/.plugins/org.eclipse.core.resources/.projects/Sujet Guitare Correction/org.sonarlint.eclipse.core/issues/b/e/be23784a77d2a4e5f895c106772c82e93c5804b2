@@ -1,0 +1,12 @@
+
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(«óÎØıÿÿÿÿ8şüú¾Ï.H©RCRITICALZ
+CODE_SMELL
+¨
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(«óÎØıÿÿÿÿ8ÛæŞ¿Ï.HÈRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇÙÚÿÿÿÿÿHğRMINORZ
+CODE_SMELL
+–
+java:S1157;"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(£«©Ğ8 İÖÀÏ.HáRMINORZ
+CODE_SMELL

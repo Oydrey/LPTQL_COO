@@ -1,0 +1,6 @@
+
+Å
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¢∆ÏµH◊RCRITICALZ
+CODE_SMELL
+Ö	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òÈÁ¸H‘RMINORZ
+CODE_SMELL

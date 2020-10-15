@@ -1,0 +1,5 @@
+package version5;
+
+public class Mandoline extends Instrument {
+
+}

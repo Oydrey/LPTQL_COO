@@ -1,0 +1,25 @@
+
+{
+java:S1192#"GDefine a constant instead of duplicating this literal "Martin" 3 times.(„§ÆêùÿÿÿÿHÏRCRITICALZ
+CODE_SMELL
+u
+java:S1192"FDefine a constant instead of duplicating this literal "Alder" 6 times.(ª£˜HÊRCRITICALZ
+CODE_SMELL
+x
+java:S1192"IDefine a constant instead of duplicating this literal "electric" 6 times.(ª£˜HÎRCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜éçüHĞRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¿†´ôúÿÿÿÿHÒRMAJORZ
+CODE_SMELL
+}
+java:S1192"IDefine a constant instead of duplicating this literal "acoustic" 6 times.(ìéå…ûÿÿÿÿHÍRCRITICALZ
+CODE_SMELL
+}
+java:S1192$"IDefine a constant instead of duplicating this literal "Mahogany" 5 times.(”ÚªÁúÿÿÿÿHÌRCRITICALZ
+CODE_SMELL
+
+java:S1192"MDefine a constant instead of duplicating this literal "Stratocastor" 3 times.(û›ŒöüÿÿÿÿHËRCRITICALZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¦Å¡ÄÿÿÿÿÿHÑRMAJORZ
+CODE_SMELL

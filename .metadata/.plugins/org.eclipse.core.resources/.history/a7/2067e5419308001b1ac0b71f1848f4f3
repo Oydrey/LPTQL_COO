@@ -1,0 +1,25 @@
+package version3;
+
+import version2.Builder;
+import version2.Type;
+import version2.Wood;
+
+public class Guitar {
+
+	private String serialNumber;
+	private double price;
+	
+	public Guitar (String serialNumber, double price, Builder builder, String model, Type type, Wood backWood, Wood topWood) {
+		this.serialNumber = serialNumber;
+		this.price = price;
+	}
+
+	public String getSerialNumber() {
+		return serialNumber;
+	}
+	
+	public double getPrice() {
+		return price;
+	}
+	
+}

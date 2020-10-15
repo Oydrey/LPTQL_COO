@@ -1,0 +1,20 @@
+
+[
+java:S3740"/Provide the parametrized type for this generic.(šŠß¨HÙRMAJORZ
+CODE_SMELL
+[
+java:S3740""/Provide the parametrized type for this generic.(šŠß¨HÚRMAJORZ
+CODE_SMELL
+[
+java:S3740,"/Provide the parametrized type for this generic.(šŠß¨HÛRMAJORZ
+CODE_SMELL
+[
+java:S37406"/Provide the parametrized type for this generic.(šŠß¨HÜRMAJORZ
+CODE_SMELL
+q	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¨¶˜ßHÝRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇžÙÚÿÿÿÿÿHÞRMINORZ
+CODE_SMELL
+˜
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¨¶˜ßHßRMINORZ
+CODE_SMELL

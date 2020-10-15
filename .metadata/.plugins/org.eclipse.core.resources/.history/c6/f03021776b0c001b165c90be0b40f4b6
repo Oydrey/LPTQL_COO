@@ -1,0 +1,9 @@
+package liskov;
+
+class Square {
+	
+	public Square(int size) {
+		super(size, size);
+	}
+
+}
