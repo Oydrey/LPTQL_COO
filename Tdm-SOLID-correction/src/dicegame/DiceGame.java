@@ -4,10 +4,12 @@ public class DiceGame implements IDiceGame{
 
 	private Dice dice;
 	private KeyboardInput input;
+	private Display display;
 	
 	public DiceGame(Dice dice) {
 		super();
 		input = new KeyboardInput();
+		display = new Display();
 		this.dice = dice;
 	}
 
@@ -19,18 +21,14 @@ public class DiceGame implements IDiceGame{
 	}
 
 	public void playOneRound() {
-		displayEntryText();
+		display.displayEntryText();
 		int userChoice = input.readInt();
 		int diceRollValue = getRandomDiceValue();
-		displayDiceValue(diceRollValue);
-		if (userChoice == diceRollValue)
-			displaySuccessText();
-		displayPlayAgainText();
-	}
-
-	private void displayDiceValue(int diceRollValue) {
-		System.out.println("Dice roll..");
-		System.out.println("The value is " + diceRollValue);
+		display.displayDiceValue(diceRollValue);
+		if (userChoice == diceRollValue) {
+			display.displaySuccessText();
+		}
+		display.displayPlayAgainText();
 	}
 
 	public int getRandomDiceValue() {
@@ -38,16 +36,6 @@ public class DiceGame implements IDiceGame{
 		return dice.readValue();
 	}
 
-	public void displayEntryText() {
-		System.out.println("Guess the dice value on next roll : ");
-	}
-
-	public void displayPlayAgainText() {
-		System.out.println("play again ?");
-	}
-
-	public void displaySuccessText() {
-		System.out.println("Well done!");
-	}
+	
 
 }
