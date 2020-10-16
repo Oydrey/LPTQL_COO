@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="dicegame.DiceWith12Faces" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/DiceWith12Faces.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="670" y="528"/>    
+    <position height="-1" width="-1" x="1002" y="376"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <interface id="3" language="java" name="dicegame.IKeyboardInput" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/IKeyboardInput.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="385" y="279"/>    
+    <position height="-1" width="-1" x="365" y="364"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </interface>  
   <class id="4" language="java" name="dicegame.Dice" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/Dice.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="880" y="332"/>    
+    <position height="-1" width="-1" x="647" y="288"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </interface>  
   <class id="6" language="java" name="dicegame.DiceWith6Faces" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/DiceWith6Faces.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="882" y="535"/>    
+    <position height="-1" width="-1" x="1003" y="261"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="dicegame.FakeDiceWith8Faces" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/FakeDiceWith8Faces.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1117" y="533"/>    
+    <position height="-1" width="-1" x="1001" y="133"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="input.KeyboardInput" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/input/KeyboardInput.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="162" y="277"/>    
+    <position height="-1" width="-1" x="146" y="347"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="dicegame.DiceGame" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/DiceGame.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="641" y="125"/>    
+    <position height="-1" width="-1" x="298" y="152"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <interface id="10" language="java" name="dicegame.IDiceGame" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/dicegame/IDiceGame.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="992" y="119"/>    
+    <position height="-1" width="-1" x="689" y="78"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
   </interface>  
   <class id="11" language="java" name="DiceGameLauncher" project="Tdm-SOLID-correction" 
     file="/Tdm-SOLID-correction/src/DiceGameLauncher.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="954" y="-67"/>    
+    <position height="-1" width="-1" x="885" y="-68"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
