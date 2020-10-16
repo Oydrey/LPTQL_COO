@@ -18,7 +18,6 @@ public class DiceGame implements IDiceGame{
 		} while (input.readChar() == 'y');
 	}
 
-	@Override
 	public void playOneRound() {
 		displayEntryText();
 		int userChoice = input.readInt();
@@ -34,23 +33,19 @@ public class DiceGame implements IDiceGame{
 		System.out.println("The value is " + diceRollValue);
 	}
 
-	@Override
 	public int getRandomDiceValue() {
 		dice.roll();
 		return dice.readValue();
 	}
 
-	@Override
 	public void displayEntryText() {
 		System.out.println("Guess the dice value on next roll : ");
 	}
 
-	@Override
 	public void displayPlayAgainText() {
 		System.out.println("play again ?");
 	}
 
-	@Override
 	public void displaySuccessText() {
 		System.out.println("Well done!");
 	}
