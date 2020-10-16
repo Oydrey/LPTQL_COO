@@ -2,13 +2,13 @@ package dicegame;
 
 public class DiceGame implements IDiceGame{
 
-	private FakeDiceWith8Faces dice;
+	private Dice dice;
 	private KeyboardInput input;
 	
-	public DiceGame() {
+	public DiceGame(Dice dice) {
 		super();
 		input = new KeyboardInput();
-		dice = new  FakeDiceWith8Faces();
+		this.dice = dice;
 	}
 
 	@Override

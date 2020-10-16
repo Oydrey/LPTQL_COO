@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="dicegame.DiceWith8Faces" project="Tdm-SOLID-correction" 
-    file="/Tdm-SOLID-correction/src/dicegame/DiceWith8Faces.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="dicegame.DiceWith12Faces" project="Tdm-SOLID-correction" 
+    file="/Tdm-SOLID-correction/src/dicegame/DiceWith12Faces.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="837" y="517"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -71,11 +71,7 @@
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <realization id="14">    
+  <realization id="13">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="6"/>  
   </realization>  
