@@ -23,7 +23,7 @@ public class DiceGame implements IDiceGame{
 	@Override
 	public void playOneRound() {
 		displayEntryText();
-		int userChoice =input.readInt();
+		int userChoice = input.readInt();
 		int diceRollValue = getRandomDiceValue();
 		displayDiceValue(diceRollValue);
 		if (userChoice == diceRollValue)
