@@ -2,15 +2,13 @@ package dicegame;
 
 public class DiceGame implements IDiceGame{
 
-	private DiceWith6Faces dice;
+	private FakeDiceWith8Faces dice;
 	private KeyboardInput input;
 	
 	public DiceGame() {
 		super();
 		input = new KeyboardInput();
-		dice = new  DiceWith6Faces();
-		// change next line depending on the dice
-		// dice = new  DiceWith8Faces();
+		dice = new  FakeDiceWith8Faces();
 	}
 
 	@Override
@@ -38,10 +36,8 @@ public class DiceGame implements IDiceGame{
 
 	@Override
 	public int getRandomDiceValue() {
-		if (dice instanceof DiceWith6Faces)
-			return dice.getRandomValueFrom1To6();
-		else 
-			return ((DiceWith8Faces)dice).getRandomValueFrom1To8();
+		dice.roll();
+		return dice.readValue();
 	}
 
 	@Override

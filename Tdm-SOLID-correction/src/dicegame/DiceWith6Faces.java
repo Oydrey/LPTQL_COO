@@ -1,9 +1,9 @@
 package dicegame;
 
-public class DiceWith6Faces {
+public class DiceWith6Faces extends Dice {
 
-	public int getRandomValueFrom1To6() {
-		return (int)(Math.random()*6) + 1;
+	public DiceWith6Faces() {
+		super(6);
 	}
 
 }
