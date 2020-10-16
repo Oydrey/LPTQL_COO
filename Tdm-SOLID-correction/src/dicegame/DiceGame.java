@@ -3,13 +3,13 @@ package dicegame;
 public class DiceGame implements IDiceGame{
 
 	private Dice dice;
-	private KeyboardInput input;
-	private Display display;
+	private IKeyboardInput input;
+	private IDisplay display;
 	
-	public DiceGame(Dice dice) {
+	public DiceGame(Dice dice, IKeyboardInput input, IDisplay display) {
 		super();
-		input = new KeyboardInput();
-		display = new Display();
+		this.input = input;
+		this.display = display;
 		this.dice = dice;
 	}
 

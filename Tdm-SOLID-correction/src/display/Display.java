@@ -1,6 +1,8 @@
-package dicegame;
+package display;
 
-public class Display {
+import dicegame.IDisplay;
+
+public class Display implements IDisplay {
 	
 	public Display() {
 		super();

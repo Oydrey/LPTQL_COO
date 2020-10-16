@@ -1,8 +1,10 @@
-package dicegame;
+package input;
 
 import java.util.Scanner;
 
-public class KeyboardInput {
+import dicegame.IKeyboardInput;
+
+public class KeyboardInput implements IKeyboardInput{
 
 	private Scanner reader = new Scanner(System.in);
 	
